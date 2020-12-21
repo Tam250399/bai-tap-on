@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = [5, "tam", 6, 8, 9, 7, 10, 2]
+        let c = parseInt(prompt("nhập số cần tìm"))
+        let b = false;
+        for (let i = 0; i < a.length; i++) {
+            if (c == a[i]) {
+                b = true;
+                alert("có số bạn cần tìm =" + a[i])
+            }
+        }
+        if (b == false) {
+            alert("không có số bạn cần tìm")
+        }
+    </script>
+</body>
+
+</html>
